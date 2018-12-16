@@ -8,8 +8,7 @@
     android:layout_marginTop="4dp"
     android:layout_marginBottom="4dp"
     android:clickable="true"
-    android:focusable="true"
-    android:foreground="?selectableItemBackground">
+    android:focusable="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,8 +19,7 @@
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/photo_placeholder" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/article_title"
@@ -32,7 +30,7 @@
             android:paddingTop="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
-            android:textColor="@color/ltgray"
+            android:textColor="#d1000000"
             android:ellipsize="end"
             android:maxLines="4"
             tools:text="This is a sample text of title"/>
@@ -45,7 +43,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="#6000"
+            android:textColor="#a4000000"
             android:maxLines="2"
             android:ellipsize="end" />
         </LinearLayout>
